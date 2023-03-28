@@ -1,0 +1,58 @@
+@import "../partials/navbar.css";
+
+header {
+    background: #000;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    line-height: 1;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero__content{
+   flex-basis: 600px;
+}
+.cards {
+    display: flex;
+    gap: 3rem;
+}
+.cards .card {
+    flex: 1;
+}
+
+/* services */
+.services {
+    padding: 6rem 0;
+}
+.services__header h3 {
+    font-size: 2.5rem;
+    margin-bottom: -10px;
+}
+
+.services__header p {
+    text-transform: uppercase;
+    color: red;
+}
+
+
+.services .grid {
+    margin-top: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    display: grid;
+}
+
+

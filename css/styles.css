@@ -1,0 +1,15 @@
+@import "./partials/variables.css";
+
+@import "./partials/reset.css";
+
+@import "./components/navbar.css";
+@import "./components/button.css";
+@import "./components/service-card.css";
+@import "./components/card.css";
+
+
+/* pages */
+/** Home page **/
+@import "./pages/home.css";
+
+

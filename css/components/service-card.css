@@ -1,0 +1,21 @@
+.service__card {
+    text-decoration: none;
+    background: #ebebeb;
+    padding: .7rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 250ms ease-out;
+}
+
+.service__card:hover {
+    box-shadow: 1px 5px 18px #18181812;
+}
+.service__card__title {
+    color: #181818;
+    font-weight: bold;
+}
+
+.service__card__icon {
+    color: #18181844;
+}
